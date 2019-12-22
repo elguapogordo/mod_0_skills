@@ -1,0 +1,18 @@
+Object: Table_3
+
+attributes:
+is_clean (true)
+table_type ("booth")
+total_capacity (4)
+current_capacity (0)
+table_orders ({})
+
+methods:
+clean (current_capacity = 0, is_clean = true)
+seat (current_capacity = 3, is_clean = false)
+add_child_seat (total_capacity += 1)
+take_order (table_orders = {
+  1: ["pizza", "iced tea"],
+  4: ["hamburger", "coke"],
+  5: ["kids macaroni and cheese", "milk"]
+  })

@@ -1,4 +1,4 @@
-Instance Pizza
+Object: Pizza
 
 attributes:
 cost (12)

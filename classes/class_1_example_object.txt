@@ -1,0 +1,16 @@
+Instance Pizza
+
+attributes:
+cost (12)
+is_hot (true)
+ingredients (["crust", "sauce", "cheese", "pepperoni"])
+is_ready (false)
+location ("kitchen")
+
+methods:
+discount(25) (cost = 9)
+substitute_add (ingredients = ["regular crust", "sauce", "cheese", "pepperoni", "sausage"])
+substitute_remove (ingredients = ["regular crust", "sauce", "cheese", "sausage"])
+prepare (is_ready = true)
+serve (location = "table 7")
+clear (location = "kitchen")

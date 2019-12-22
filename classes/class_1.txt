@@ -1,0 +1,16 @@
+Class Food
+
+attributes:
+cost (integer or float)
+is_hot (boolean)
+ingredients (array)
+is_ready (boolean)
+location (string, default "kitchen")
+
+methods:
+discount(percent) (modify integer or float by percent of discount)
+substitute_add (add ingredient to ingredients array)
+substitute_remove (remove ingredient from ingredients array)
+prepare (set is_ready to true)
+serve (change location to appropriate table)
+clear (change location to "kitchen")

@@ -1,0 +1,14 @@
+Class Table
+
+attributes:
+is_clean (boolean)
+table_type (string: "table", "booth", "bar")
+total_capacity (integer)
+current_capacity (integer)
+table_orders (hash)
+
+methods:
+clean (change current_capacity, change is_clean to true)
+seat (change current_capacity, change is_clean to false)
+add_child_seat (change total_capacity += 1)
+take_order (add key/value pair to table_orders)
